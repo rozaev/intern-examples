@@ -1,0 +1,16 @@
+{
+  "name": "sourc-map-intern-example",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-es2015": "^6.24.0",
+    "intern": "~3.4.2"
+  },
+  "scripts": {
+    "build": "babel js/example.js  --out-file js/example.result.js --source-maps inline --presets=es2015 --no-babelrc",
+    "test": "intern-runner config=tests/intern"
+  }
+}

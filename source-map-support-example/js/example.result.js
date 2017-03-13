@@ -1,0 +1,13 @@
+"use strict";
+
+define([], function () {
+	return function (arr) {
+		var result = arr.map(function (el) {
+			return el * 2;
+		});
+
+		return result;
+	};
+});
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImV4YW1wbGUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxPQUFPLEVBQVAsRUFDRyxZQUFZO0FBQ2QsUUFBTyxVQUFVLEdBQVYsRUFBZTtBQUNyQixNQUFNLFNBQVMsSUFBSSxHQUFKLENBQVEsVUFBQyxFQUFELEVBQVE7QUFDOUIsVUFBTyxLQUFLLENBQVo7QUFDQSxHQUZjLENBQWY7O0FBSUEsU0FBTyxNQUFQO0FBQ0EsRUFORDtBQU9BLENBVEQiLCJmaWxlIjoiZXhhbXBsZS5yZXN1bHQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJkZWZpbmUoW1xuXSwgZnVuY3Rpb24gKCkge1xuXHRyZXR1cm4gZnVuY3Rpb24gKGFycikge1xuXHRcdGNvbnN0IHJlc3VsdCA9IGFyci5tYXAoKGVsKSA9PiB7XG5cdFx0XHRyZXR1cm4gZWwgKiAyO1xuXHRcdH0pO1xuXG5cdFx0cmV0dXJuIHJlc3VsdDtcblx0fVxufSk7Il19

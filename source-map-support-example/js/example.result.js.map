@@ -1,0 +1,1 @@
+{"version":3,"sources":["example.js"],"names":[],"mappings":";;AAAA,OAAO,EAAP,EACG,YAAY;AACd,QAAO,UAAU,GAAV,EAAe;AACrB,SAAO,IAAI,GAAJ,CAAS,cAAM;AACrB,UAAO,MAAM,CAAb;AACA,GAFM,CAAP;AAGA,EAJD;AAKA,CAPD","file":"example.result.js","sourcesContent":["define([\n], function () {\n\treturn function (arr) {\n\t\treturn arr.map( el => {\n\t\t\treturn el ** 2;\n\t\t});\n\t}\n});"]}
